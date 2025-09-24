@@ -1,0 +1,35 @@
+﻿   Assembling: match686.asm
+  Microsoft (R) Macro Assembler Version 14.24.28315.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+   Assembling: inffas32.asm
+  Microsoft (R) Macro Assembler Version 14.24.28315.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  Assembler code may have bugs -- use at your own risk
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  ioapi.c
+  iowin32.c
+G:\C_Library\zlib-VS\zlib-1.2.11\contrib\minizip\iowin32.c(31,32): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  trees.c
+  uncompr.c
+  zutil.c
+  unzip.c
+  zip.c
+    正在创建库 x86\ZlibDllRelease\zlib.lib 和对象 x86\ZlibDllRelease\zlib.exp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 264 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  zlibvc.vcxproj -> G:\C_Library\zlib-VS\zlib-1.2.11\contrib\vstudio\vc14\x86\ZlibDllRelease\zlib.dll

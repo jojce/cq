@@ -1,0 +1,28 @@
+﻿  Common.cpp
+D:\工程\传奇-贪玩\传奇-MirDll\MirDll\xPacket.h(140,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\工程\传奇-贪玩\传奇-MirDll\MirDll\xPacket.h(422,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\工程\传奇-贪玩\传奇-MirDll\MirDll\Common.h(21,1): warning C4005: “LOBYTE”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(206): message : 参见“LOBYTE”的前一个定义
+D:\工程\传奇-贪玩\传奇-MirDll\MirDll\Common.h(22,1): warning C4005: “LOWORD”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(204): message : 参见“LOWORD”的前一个定义
+D:\工程\传奇-贪玩\传奇-MirDll\MirDll\Common.h(24,1): warning C4005: “HIBYTE”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(207): message : 参见“HIBYTE”的前一个定义
+D:\工程\传奇-贪玩\传奇-MirDll\MirDll\Common.h(25,1): warning C4005: “HIWORD”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(205): message : 参见“HIWORD”的前一个定义
+D:\工程\传奇-贪玩\传奇-MirDll\MirDll\Common.cpp(62,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\工程\传奇-贪玩\传奇-MirDll\MirDll\Common.cpp(90,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\工程\传奇-贪玩\传奇-MirDll\MirDll\Common.cpp(147,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\工程\传奇-贪玩\传奇-MirDll\MirDll\Common.cpp(153,21): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+    正在创建库 D:\工程\传奇-贪玩\传奇-MirDll\x64\Release\MirDll.lib 和对象 D:\工程\传奇-贪玩\传奇-MirDll\x64\Release\MirDll.exp
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+zlibstatic.lib(uncompr.obj) : warning LNK4099: 未找到 PDB“zlibstat.pdb”(使用“zlibstatic.lib(uncompr.obj)”或在“D:\工程\传奇-贪玩\传奇-MirDll\x64\Release\zlibstat.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+zlibstatic.lib(inflate.obj) : warning LNK4099: 未找到 PDB“zlibstat.pdb”(使用“zlibstatic.lib(inflate.obj)”或在“D:\工程\传奇-贪玩\传奇-MirDll\x64\Release\zlibstat.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+zlibstatic.lib(adler32.obj) : warning LNK4099: 未找到 PDB“zlibstat.pdb”(使用“zlibstatic.lib(adler32.obj)”或在“D:\工程\传奇-贪玩\传奇-MirDll\x64\Release\zlibstat.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+zlibstatic.lib(crc32.obj) : warning LNK4099: 未找到 PDB“zlibstat.pdb”(使用“zlibstatic.lib(crc32.obj)”或在“D:\工程\传奇-贪玩\传奇-MirDll\x64\Release\zlibstat.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+zlibstatic.lib(zutil.obj) : warning LNK4099: 未找到 PDB“zlibstat.pdb”(使用“zlibstatic.lib(zutil.obj)”或在“D:\工程\传奇-贪玩\传奇-MirDll\x64\Release\zlibstat.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+zlibstatic.lib(inftrees.obj) : warning LNK4099: 未找到 PDB“zlibstat.pdb”(使用“zlibstatic.lib(inftrees.obj)”或在“D:\工程\传奇-贪玩\传奇-MirDll\x64\Release\zlibstat.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+zlibstatic.lib(inffas8664.obj) : warning LNK4099: 未找到 PDB“zlibstat.pdb”(使用“zlibstatic.lib(inffas8664.obj)”或在“D:\工程\传奇-贪玩\传奇-MirDll\x64\Release\zlibstat.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+LINK : warning LNK4286: 符号“free”(在“libucrt.lib(free.obj)”中定义)已由“zlibstatic.lib(zutil.obj)”导入
+LINK : warning LNK4286: 符号“malloc”(在“libucrt.lib(malloc.obj)”中定义)已由“zlibstatic.lib(zutil.obj)”导入
+  MirDll.vcxproj -> D:\工程\传奇-贪玩\传奇-MirDll\x64\Release\MirDll.dll

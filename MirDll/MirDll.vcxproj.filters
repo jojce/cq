@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MinHook">
+      <UniqueIdentifier>{97be4741-ea12-4709-b6bb-3249019e9d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{a12117b2-dc77-41d5-8877-b1ef5684ff59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Frm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\buffer.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hook.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\trampoline.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\HDE\hde32.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\HDE\hde64.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Encode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Decode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Json\src\lib_json\json_reader.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="Json\src\lib_json\json_value.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="Json\src\lib_json\json_writer.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="SendProgram.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Frm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\buffer.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\trampoline.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\hde32.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\hde64.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\pstdint.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\table32.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\table64.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\include\MinHook.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xPacket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Encode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Decode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\include\json\autolink.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\include\json\config.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\include\json\features.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\include\json\forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\include\json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\include\json\reader.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\include\json\value.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\include\json\writer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\src\lib_json\json_batchallocator.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="SendProgram.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MirDll.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

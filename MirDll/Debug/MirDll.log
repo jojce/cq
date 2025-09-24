@@ -1,0 +1,9 @@
+﻿  Main.cpp
+D:\工程\传奇-贪玩\MirDll\MirDll\Main.cpp(4,13): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\工程\传奇-贪玩\MirDll\MirDll\Main.cpp(4,6): error C2146: 语法错误: 缺少“;”(在标识符“WINAPI”的前面)
+D:\工程\传奇-贪玩\MirDll\MirDll\Main.cpp(5,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\工程\传奇-贪玩\MirDll\MirDll\Main.cpp(5,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+D:\工程\传奇-贪玩\MirDll\MirDll\Main.cpp(40,13): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\工程\传奇-贪玩\MirDll\MirDll\Main.cpp(40,1): error C2086: “int BOOL”: 重定义
+D:\工程\传奇-贪玩\MirDll\MirDll\Main.cpp(4): message : 参见“BOOL”的声明
+D:\工程\传奇-贪玩\MirDll\MirDll\Main.cpp(40,6): error C2146: 语法错误: 缺少“;”(在标识符“WINAPI”的前面)

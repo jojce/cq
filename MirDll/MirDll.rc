@@ -1,0 +1,148 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 1060
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 457
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 1065, 464
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "开始HOOK SEND",IDC_HOOK_SEND,18,14,67,19,NOT WS_VISIBLE
+    PUSHBUTTON      "关闭HOOK SEND",IDC_UNHOOK_SEND,18,39,67,19,NOT WS_VISIBLE
+    PUSHBUTTON      "开始HOOK RECV",IDC_HOOK_RECV,18,62,67,19,NOT WS_VISIBLE
+    PUSHBUTTON      "关闭HOOK RECV",IDC_UNHOOK_RECV,18,87,67,19,NOT WS_VISIBLE
+    PUSHBUTTON      "传送按钮",IDC_CHUANSONG,18,111,67,19
+    PUSHBUTTON      "使用技能",IDC_USESKILL,18,134,67,19
+    PUSHBUTTON      "黑市购买",IDC_HEISHIBUY,18,158,67,19
+    PUSHBUTTON      "测试按钮",IDC_TEST,16,404,67,19
+    PUSHBUTTON      "S_LOG",IDC_TEST2,16,428,33,19
+    LTEXT           "NAME:",IDC_STATIC,96,20,39,8
+    LTEXT           "MASTER_ID:",IDC_STATIC,96,33,39,8
+    LTEXT           "USER_ID:",IDC_STATIC,96,46,39,8
+    LTEXT           "LOCATION:",IDC_STATIC,96,58,39,8
+    LTEXT           "MAP:",IDC_STATIC,96,71,39,8
+    LTEXT           "(游戏登录时获取)",IDC_PLAYER_NAME,144,20,102,8
+    LTEXT           "(游戏登录时获取)",IDC_PLAYER_MASTERID,144,33,102,8
+    LTEXT           "(游戏登录时获取)",IDC_USERID,144,46,102,8
+    LTEXT           "0,0",IDC_PLAYER_LOCATIONS,144,57,102,8
+    LTEXT           "(游戏登录时获取)",IDC_PLAYER_MAP,144,70,102,8
+    EDITTEXT        IDC_EDIT1,120,136,44,14,ES_AUTOHSCROLL
+    LTEXT           "技能ID:",IDC_STATIC,91,139,27,8
+    EDITTEXT        IDC_EDIT2,196,136,48,14,ES_AUTOHSCROLL
+    LTEXT           "目标ID:",IDC_STATIC,167,139,27,8
+    EDITTEXT        IDC_EDIT4,120,160,74,14,ES_AUTOHSCROLL
+    LTEXT           "黑市ID:",IDC_STATIC,91,163,27,8
+    EDITTEXT        IDC_EDIT3,120,113,74,14,ES_AUTOHSCROLL
+    LTEXT           "地图ID:",IDC_STATIC,91,116,27,8
+    LISTBOX         IDC_LIST1,261,14,260,435,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST2,529,15,269,435,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "R_LOG",IDC_TEST3,50,428,33,19
+    LISTBOX         IDC_LIST3,803,232,229,218,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST4,803,15,229,211,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "存物品",IDC_PUSHBANK,18,182,67,19
+    EDITTEXT        IDC_EDIT5,120,184,50,14,ES_AUTOHSCROLL
+    LTEXT           "物品ID:",IDC_STATIC,92,187,27,8
+    PUSHBUTTON      "取物品",IDC_PULLBANK,18,206,67,19
+    EDITTEXT        IDC_EDIT6,120,208,50,14,ES_AUTOHSCROLL
+    LTEXT           "物品ID:",IDC_STATIC,92,211,27,8
+    EDITTEXT        IDC_EDIT7,191,184,50,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,191,208,50,14,ES_AUTOHSCROLL
+    LTEXT           "名字:",IDC_STATIC,171,187,20,8
+    LTEXT           "名字:",IDC_STATIC,171,211,20,8
+    LTEXT           "是否VIP:",IDC_STATIC,19,231,32,8
+    EDITTEXT        IDC_EDIT9,52,228,52,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
